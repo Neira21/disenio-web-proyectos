@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulario Estados</title>
+  <link rel="stylesheet" href="./output.css"/>
+</head>
+<body class="bg-sky-500">
+  <form class="bg-white w-80 my-7 rounded-lg text-blue-500 mx-auto p-6 ">
+    <div class="text-4xl font-extrabold my-7">
+      <p class="text-center bg-clip-text text-transparent bg-gradient-to-r from-blue-900 to-blue-200" >Formulario</p>
+    </div>
+
+    <input class=" disabled: bg-red-100 border mt-5 border-gray-500  rounded-3xl w-full px-3 py-2 "  type="text" placeholder="Nombre">
+
+    <input class="focus:outline-none focus:ring-1 focus:ring-purple-500  border border-gray-500 rounded-3xl w-full px-3 py-2 mt-5 invalid:focus:ring-red-600 peer  " type="email" placeholder="Correo" >
+    <p class="text-red-400 hidden peer-invalid:block " >El correo no es correcto</p>
+
+    <input class="border border-gray-500  rounded-3xl w-full py-2 px-3 mt-5 " type="password" placeholder="Contraseña">
+    
+    <input class="rounded-md py-2 mx-auto block w-full text-white mt-5 bg-emerald-400 cursor-pointer hover:bg-emerald-800" type="submit">
+
+    
+  </form>
+</body>
+</html>
